@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title><%= title %></title>
+	<!-- Bootstrap core CSS -->
+	<!-- <link href="/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+	-->
+	<!-- Custom styles for this template -->
+	<link href="/assets/css/signin.css" rel="stylesheet"/>
+</head>
+<body screen_capture_injected="true" class="form-signin">
+
+	<img alt="Cloud-logo" class="logo" height="70" src="/assets/images/cloud-logo-0efc9110ac89b1ea38fc7ee2475a3e87.svg" />
+	<form action="/reg" class="vertical-form" id="new_user" method="post" enctype="application/x-www-form-urlencoded">
+		<!--
+		 <div style="margin:0;padding:0;display:inline">
+			<input name="utf8" type="hidden" value="&#x2713;" />
+			<input name="authenticity_token" type="hidden" value="aNqCLZgcVsTqRXaWJ8QPFUVwf3lthblfiEoOeKw277I=" />
+		</div>
+		-->
+		<legend>创建一个使用者账号</legend>
+
+		<input type="text" name="user[name]" placeholder="Email Address/UserName" required="required" size="30"value="asfly_z@msn.cn" />
+		<input type="password" name="user[password]" placeholder="Password" rel="tooltip-focus" required="required" size="30" value="123456789" />
+		<input type="submit" value="注册" />
+		<div class='footer'>
+			<p>
+				By signing up, you agree to the
+				<a href="#">Terms of Service</a>
+			</p>
+			<p>
+				已经有账户?
+				<a href="/login">登入</a>
+			</p>
+		</div>
+	</form>
+</body>
+</html>

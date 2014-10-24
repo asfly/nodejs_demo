@@ -1,0 +1,161 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+.form-signin {
+  font-family: "proxima-nova";
+  padding: 90px 0 0 0
+}
+
+.form-signin .logo {
+  display: block;
+  margin: 0 auto 30px
+}
+
+.form-signin a,.form-signin a:visited {
+  text-decoration: underline;
+  color: inherit
+}
+
+.form-signin ul.notice {
+  margin: 30px auto;
+  width: 300px;
+  text-align: center;
+  list-style-position: inside;
+  font-size: 15px;
+  padding: 20px 30px;
+  border-radius: 3px
+}
+
+.form-signin ul.notice.errors {
+  background-color: #fff4f4;
+  border: 1px solid #f50909;
+  color: #f50909
+}
+
+.form-signin ul.notice.success {
+  background-color: #d7eacd;
+  border: 1px solid #6fae4f;
+  color: #6fae4f
+}
+
+.form-signin ul.notice li {
+  padding: 5px 0
+}
+
+.form-signin .vertical-form {
+  margin: 0 auto;
+  width: 500px
+}
+
+.form-signin .vertical-form legend {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 0 30px 0
+}
+
+.form-signin .vertical-form input[type='text'],.form-signin .vertical-form input[type='password'],.form-signin .vertical-form input[type='number'] {
+  border: 1px #c1c1c1 solid;
+  color: #c1c1c1;
+  height: 50px;
+  font-size: 18px
+}
+
+.form-signin .vertical-form input[type='text'],.form-signin .vertical-form input[type='password'],.form-signin .vertical-form input[type='submit'],.form-signin .vertical-form input[type='number'] {
+  display: block;
+  margin: 0 auto 18px auto;
+  width: 323px;
+  text-align: center;
+  border-radius: 3px;
+  color: #2d2d2d;
+  outline: none;
+  font-family: inherit
+}
+
+.form-signin .vertical-form input[type='submit'] {
+  color: white;
+  background: #3686bb;
+  border: none;
+  height: 57px;
+  width: 327px;
+  font-size: 15px;
+  font-weight: 400;
+  outline: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer
+}
+
+.form-signin .vertical-form input:hover[type='submit'] {
+  background-color: #2b6a93;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease
+}
+
+.form-signin .vertical-form .footer {
+  text-align: center;
+  margin-bottom: 200px
+}
+
+.form-signin .vertical-form .footer p:first-child {
+  color: #cccccc
+}
+
+.form-signin .vertical-form .footer a:first-child {
+  border-bottom: solid 1px #cccccc;
+  text-decoration: none
+}
+
+.form-signin .vertical-form .footer p:nth-child(2) a {
+  border-bottom: solid 1px black
+}
+
+@media screen and (max-width: 550px) {
+  .form-signin .form-signin {
+    margin: 0;
+    padding-top: 15px
+  }
+
+  .form-signin .form-signin .logo {
+    background-size: cover;
+    width: 75px;
+    margin: 0 auto
+  }
+
+  .form-signin .vertical-form {
+    width: 100%;
+    padding: 3px 25px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+  }
+
+  .form-signin .vertical-form .footer {
+    margin-bottom: 40px
+  }
+
+  .form-signin .vertical-form input[type='text'],.form-signin .vertical-form input[type='password'],.form-signin .vertical-form input[type='submit'],.form-signin .vertical-form input[type='number'] {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto 13px auto
+  }
+
+  .form-signin .vertical-form input[type='submit'] {
+    -webkit-appearance: none
+  }
+
+  .form-signin .vertical-form legend {
+    margin: 0 0 20px 0;
+    font-size: 23px
+  }
+}

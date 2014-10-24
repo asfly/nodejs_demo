@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+    -->
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/signin.css" rel="stylesheet"/>
+</head>
+<body screen_capture_injected="true" class="form-signin">
+
+    <img alt="Cloud-logo" class="logo" height="70" src="/assets/images/cloud-logo-0efc9110ac89b1ea38fc7ee2475a3e87.svg" />
+    <ul class="notice errors" style="display:none">
+        <li>Invalid email or password</li>
+    </ul>
+    <form action="/login" class="vertical-form" id="new_user" method="post" enctype="application/x-www-form-urlencoded">
+        <!-- 
+            <div style="margin:0;padding:0;display:inline">
+            <input name="utf8" type="hidden" value="&#x2713;" />
+            <input name="authenticity_token" type="hidden" value="aNqCLZgcVsTqRXaWJ8QPFUVwf3lthblfiEoOeKw277I=" />
+        </div> 
+        -->
+        <legend>Welcome Back!</legend>
+        <input type="text" name="user[name]" placeholder="Username/Email" size="30"  value="admin" />
+        <input type="password" name="user[password]" autocomplete="off" placeholder="Password" size="30" value="admin"  />
+        <input type="submit" value="登入" />
+        <div class='footer'>
+            <p>
+                <a href="/forgot_password">忘记密码?</a>
+            </p>
+            <p>
+                还没加入?
+                <a href="/reg">注册</a>
+            </p>
+        </div>
+    </form>
+    <% include footer.html %>
